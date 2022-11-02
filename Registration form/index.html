@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	 
+<div class="wrapper">
+	<div class="register"><h1><u>Register</u></h1></div>
+	 
+    <div class="form">
+    <form method="POST">
+        <label for="name">Name:</label> <br>
+            <div class="name">  
+                <input type="text" class="inputField" name="firstname" placeholder="First Name" >
+                <input type="text" class="inputField" name="lastname" placeholder="Last Name" >
+            </div><br>
+    	
+    	<label for="email">Email:</label>
+            <input  type="email" class="inputField" name="email" placeholder="Enter your email" ><br>
+    	<label for="password">Password:</label>
+            <input type="password" class="inputField" min="5" name="password" placeholder="Enter your password" ><br>
+        
+        
+        <div class="addDob">
+            <div class="add" >
+                <label for="address">Address:</label>
+                <br>
+                <select name="location" class="sadd"> 
+                    <option hidden ></option>
+                    <option>Kathmandu</option>
+                    <option>Chitwan</option>
+                    <option>Pokhara</option>
+                    <option>Lalitpur</option>
+                    <option>Jhapa</option>
+                    <option>Solukhumbu</option>
+                    <option>Kanchanpur</option>
+                    <option>Dharan</option>
+                    <option>Rupandehi</option>
+                    <option>Janakpur</option>
+                </select>
+            </div>
+            <div class="dob">
+                <label for="dob">Date of birth:</label>
+                <input type="date"  class="inputField" style="color: white;" name="" class="sdob" ><br>
+            </div>
+        </div>
+        
+        
+            <label for="gender">Gender:</label>
+    	    <input type="radio" name="gender" value="Male">Male
+    	    <input type="radio" name="gender" value="Female">Female
+    	    <input type="radio" name="gender" value="Other">Other<br><br>
+        <label for="password">Profile Photo:</label> 
+            <input type="file" "><br>
+
+        <br><br>
+        <div class="option">
+            <input type="reset" name="">
+    	    <input type="submit" value="Register" name="">
+        </div>
+    </form>
+    </div>
+    
+</div>
+</body>
+</html>
