@@ -33,10 +33,10 @@ class Woman extends Personn{
 }
 
 
-const man=new Man("Binit","6","80","Male")
+const man=new Man("Ram","6","80","Male")
 console.log(man.Info);
 
-const woman=new Woman("Nibida","5'5","40","female")
+const woman=new Woman("Rita","5'5","40","female")
 console.log(woman.Info);
 
  
